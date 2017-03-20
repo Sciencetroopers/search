@@ -1,0 +1,8 @@
+= simple_form_for(@search) do |f|
+ = f.input :keywords
+ = f.input :min_price
+ = f.input :max_price
+ %br
+ = f.button :submit
+
+= link_to "Back", products_path
