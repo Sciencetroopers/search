@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This rails application successully applies the priciples of Quick and Advanced Search. 
+Quick search was implemented by simply passing the string as a parameter, and searching it through one main field of the madel.
+Advanced search was implemented by using a seperate search model having a function that searches through all the fields.
